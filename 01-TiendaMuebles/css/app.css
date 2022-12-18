@@ -1,0 +1,114 @@
+:root {
+    --bs-blue: #037BC0;
+    --bs-green: #8CBC00;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 4rem;
+    }
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+/* Reescribir colores */
+.text-primary,
+.nombre-sitio {
+    color: var(--bs-blue) !important;
+}
+
+.btn-success {
+    background-color: var(--bs-green) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-blue) !important;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 55rem;
+    }
+}
+
+/* Productos */
+@media (min-width: 768px) {
+    .producto img {
+        height: 45rem;
+        width: 100%;
+        object-fit: cover; /* LLena todo el espacio y no pierde la proporción */
+    }   
+}
+
+.categoria img {
+    filter: brightness(0.8);
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+/* Categorías */
+.categoria img:hover{
+    filter: brightness(1);
+    transform: scale(1.2);
+}
+
+/* Galería */
+
+.galeria li {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.galeria li:last-of-type {
+    margin-bottom: 0;
+}
+
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
