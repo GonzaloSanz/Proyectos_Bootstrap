@@ -2,4 +2,4 @@
 Recopilación de proyectos realizados con Bootstrap 5.
 
 
-01 - Tienda de Muebles -> https://gs-tiendamuebles.netlify.app/
+01 - Tienda de Muebles -> https://gs-tiendamuebles.netlify.app/  
